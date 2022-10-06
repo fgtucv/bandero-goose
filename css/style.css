@@ -23,14 +23,14 @@ body {
 .hero-greatings {
     font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5px;
     margin-bottom: 16px;
 }
 
 .hero-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 0;
     color: #FF6B0A;
     margin-bottom: 48px;
 }
@@ -45,7 +45,7 @@ body {
 .hero-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5px;
     margin-bottom: 47px;
 }
 
@@ -74,7 +74,7 @@ body {
 .facts-title {
     font-weight: 600;
     font-size: 48px;
-    line-height: 24px;
+    line-height: 0.5;
     padding-left: 200px;
     margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@ body {
 .facts-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     padding-left: 170px;
     margin-bottom: 30px;
 }
@@ -107,14 +107,14 @@ body {
 .card-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 0;
     margin-bottom: 22px;
 }
 
 .card-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     flex: none;
     order: 2;
     flex-grow: 0;
