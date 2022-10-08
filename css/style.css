@@ -14,7 +14,6 @@ body {
 .hero-information {
     width: 573px;
     padding-bottom: 47px;
-    outline: auto red 2px;
     padding-left: 56px;
     padding-top: 49px;
     background: #FFFFFF;
@@ -23,14 +22,14 @@ body {
 .hero-greatings {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 24px;
     margin-bottom: 16px;
 }
 
 .hero-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 0;
+    line-height: 24px;
     color: #FF6B0A;
     margin-bottom: 48px;
 }
@@ -45,7 +44,7 @@ body {
 .hero-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 24px;
     margin-bottom: 47px;
 }
 
@@ -64,26 +63,30 @@ body {
     width: 640px;
 }
 
+.facts-section .container{
+    text-align: center;
+    padding-top: 52px;
+}
+
 .fects-img {
     width: 30px;
     height: 52.1px;
-    padding-left: 600px;
     margin-bottom: 17.9px;
 }
 
 .facts-title {
     font-weight: 600;
     font-size: 48px;
-    line-height: 0.5;
-    padding-left: 200px;
+    line-height: 24px;
     margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
 }
 
 .facts-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    padding-left: 170px;
+    line-height: 24px;
     margin-bottom: 30px;
 }
 
@@ -95,8 +98,12 @@ body {
 .facts-card {
     width: 374px;
     height: 514px;
-    outline: 2px red solid;
-    justify-content: center;
+    margin-right: 30px;
+    padding-left: 5px;
+}
+
+.facts-card:nth-child(3){
+    margin-right: 0;
 }
 
 .card-img {
@@ -107,15 +114,13 @@ body {
 .card-title {
     font-weight: 600;
     font-size: 24px;
-    line-height: 0;
+    line-height: 24px;
     margin-bottom: 22px;
 }
 
 .card-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+    line-height: 24px;
+    text-align: left;
 }
